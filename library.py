@@ -66,5 +66,6 @@ def YtoASCII(y, n=4, t=90, streakProb=0.2):
         if streak[0] >= 1280:
             streaks.remove(streak)
 
+            
     frame += 1
     return canvas
